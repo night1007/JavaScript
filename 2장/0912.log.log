@@ -1,0 +1,78 @@
+10+20
+30
+console.log("안녕하세요")
+VM284:1 안녕하세요
+undefined
+ale
+VM294:1 Uncaught ReferenceError: ale is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM294:1
+alert("안녕하세요")
+undefined
+a = 10
+10
+alert(a);
+undefined
+confirm("종료하시겠습니까?)
+VM482:1 Uncaught SyntaxError: Invalid or unexpected token
+confirm("종료하시겠습니까?")
+false
+prompt("당신의 이름은?")
+'이영창'
+prompt("종료하시겠습니까?(예/아니오)", "예")
+'예'
+name = "이영창"
+'이영창'
+console.log(name + "님은 자바스크립트를 공부 중입니다.")
+VM1142:1 이영창님은 자바스크립트를 공부 중입니다.
+undefined
+document.write("제 이름은 " + name + "입니다.")
+undefined
+let result
+undefined
+result = 10
+10
+result = 20
+20
+const number = 10
+undefined
+number
+10
+number = 20
+VM1509:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:8
+(anonymous) @ VM1509:1
+let age = 23
+undefined
+console.log(name + "님 나이는" + age + "세 입니다.")
+VM1841:1 이영창님 나이는23세 입니다.
+undefined
+console.log(`${name}님의 나이는 ${age}세 입니다.`)
+VM1998:1 이영창님의 나이는 23세 입니다.
+undefined
+let student = {
+    major : "컴퓨터공학부",
+    idNum : 202095071,
+    name : "이영창"
+}
+undefined
+ student
+{major: '컴퓨터공학부', idNum: 202095071, name: '이영창'}
+student.name
+'이영창'
+student["major"]
+'컴퓨터공학부'
+let id = Symbol()
+undefined
+const member = {
+    name = "이영창",
+VM2502:2 Uncaught SyntaxError: Invalid shorthand property initializer
+const member = {
+    name : "이영창",
+    [id] : 12345
+}
+undefined
+member
+{name: '이영창', Symbol(): 12345}
+member[id]
+12345
